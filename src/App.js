@@ -11,7 +11,7 @@ class App extends Component {
 
   componentDidMount(){
     alert(process.env.REACT_APP_API_KEY);
-    fetch('https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key='+process.env.REACT_APP_API_KEY+'&tags=nyc&per_page=10&page=1&format=json&nojsoncallback=1')
+    fetch('https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key='+process.env.REACT_APP_API_KEY+'&tags=dog&per_page=10&page=1&format=json&nojsoncallback=1')
     .then(function(response){
       return response.json();
     })
