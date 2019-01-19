@@ -1,0 +1,36 @@
+.Gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem -1rem;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.animals{
+  width: 300px;
+  height: 85px;
+  background-color: #C4D8E8;
+  border-radius: 100px;
+  border:none;
+  color:white;
+  font-weight: 800;
+  text-align: center;
+  font-size: 30px;
+}
+.dragAndDrop{
+  margin-top: 5%;
+}
+.dropDiv{
+  border:1px solid black;
+  height: 200px;
+}
+@supports (display: grid) {
+  .Gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 150px);
+    grid-gap: 2rem;
+  }
+
+  .Gallery {
+    margin: 0;
+  }
+}

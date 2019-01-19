@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GalleryPagination component Snapshot matchs 1`] = `
+<div
+  className="GalleryPagination"
+>
+  <button
+    className="GalleryPaginationButton"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Previous
+  </button>
+  <span
+    className="GalleryPaginationText"
+  >
+    Page 
+    5
+     of 
+    3710
+     
+  </span>
+  <button
+    className="GalleryPaginationButton"
+    onClick={[Function]}
+    type="button"
+  >
+    Next
+  </button>
+</div>
+`;

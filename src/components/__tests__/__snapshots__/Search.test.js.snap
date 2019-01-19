@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component Snapshot matchs 1`] = `
+<div
+  className="Search"
+>
+  <div
+    className="Search-input"
+  >
+    <input
+      className="Search-input-text"
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      placeholder="Search for photos!"
+      type="text"
+      value=""
+    />
+  </div>
+  <button
+    className="Search-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <span>
+      Search
+    </span>
+  </button>
+</div>
+`;

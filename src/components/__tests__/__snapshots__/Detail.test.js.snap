@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail component Snapshot matchs 1`] = `
+<code
+  name="Lightbox"
+  props={
+    Object {
+      "imageTitle": <React.Fragment>
+        <a
+          className="DetailImageTitle"
+          href="https://www.flickr.com/photos/158309862@N07/45414777002/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span
+            className="DetailImageTitleText"
+          >
+            Open
+          </span>
+        </a>
+        <span
+          className="DetailImageTitleOwner"
+        >
+          $
+          that is a huge cat
+           by $
+          sivappa.technology
+        </span>
+      </React.Fragment>,
+      "mainSrc": "https://farm2.staticflickr.com/1956/45414777002_21af9f1855_b.jpg",
+      "nextSrc": "https://farm2.staticflickr.com/1948/30526186977_7dd1391bbd_b.jpg",
+      "onCloseRequest": [Function],
+      "onMoveNextRequest": [Function],
+      "onMovePrevRequest": [Function],
+      "prevSrc": "https://farm2.staticflickr.com/1927/44741364214_0f0a5195e9_b.jpg",
+    }
+  }
+/>
+`;

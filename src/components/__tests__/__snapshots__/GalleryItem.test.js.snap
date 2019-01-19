@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GalleryItem component Snapshot matchs 1`] = `
+<div
+  className="GalleryItem"
+>
+  <img
+    alt="This is a title!"
+    className="GalleryImage"
+    onClick={[Function]}
+    src="https://farm2.staticflickr.com/1943/43652580650_283f870b06_q.jpg"
+  />
+</div>
+`;
