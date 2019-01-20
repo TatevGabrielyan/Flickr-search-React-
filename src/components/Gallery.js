@@ -15,12 +15,15 @@ import {
 } from '../reducers';
 
 class Gallery extends PureComponent {
+ 
+  
   getGalleryItems = () => {
     const { photos, setIdDetail } = this.props;
     photos.length=5;
     if (!photos && !photos.lenght) return null;
     return photos.map(item => {
       const { id, title, url_q } = item;
+      console.log(title);
       return (
         <GalleryItem
           key={id}
@@ -31,6 +34,9 @@ class Gallery extends PureComponent {
         />
       );
     });
+
+    
+    
   };
 
   render() {
@@ -39,11 +45,11 @@ class Gallery extends PureComponent {
         <GalleryPagination />
         <div className="Gallery">{this.getGalleryItems()}</div>
         <div className="dragAndDrop">
-          <button className="animals">cat</button>
-          <button className="animals">dog</button>
-          <div className="dropDiv"> 
-            
-          </div>
+        <button className="animals">Cats</button>
+        <button className="animals">Dogs</button>
+       <div className="dropDiv">
+        <input/>
+       </div>
         </div>
       </Fragment>
     );
@@ -64,6 +70,7 @@ const mapStateToProps = state => {
     stat: getSearchStat(state),
   };
 };
+
 
 export default connect(
   mapStateToProps,
